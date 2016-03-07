@@ -1,0 +1,314 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Dosis:500,700);
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700);
+
+body {
+	background-color: #e6e6e6;
+	font-family: 'Dosis', sans-serif;
+    padding-top: 198px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+hr {
+	border: 0;
+}
+
+.fixed-header {
+	width: 100%;
+	padding: 0;
+}
+
+	.fixed-header .header-ad {
+	    background-color: #e6e6e6;
+	    width: 100%;
+	    height: 108px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    float: none;
+	    margin: 0 auto;
+	}
+
+		.fixed-header .header-ad figure {
+			width: 726px;
+		}
+
+	.fixed-header .main-header {
+	    background-color: #ed1c24;
+	    width: 100%;
+	    height: 82px;
+	    padding-top: 20px;
+	    position: relative;
+	}
+
+		.fixed-header .main-header.scroll {
+		    height: 65px;
+			padding-top: 8px;
+		}
+
+		.fixed-header .main-header h1.logo {
+		    float: left;
+		    height: 42px;
+		    margin: 0 20px 20px;
+		}
+
+		.fixed-header .main-header ul.social {
+		    float: left;
+		    padding: 0;
+		    margin: 10px 15px 0 0
+		}
+
+			.fixed-header .main-header ul.social li {
+			    display: inline-block;
+			    margin-right: 15px
+			}
+
+				.fixed-header .main-header ul.social li:last-child {
+				    margin-right: 0
+				}
+
+				.fixed-header .main-header ul.social li a {
+				    color: white;
+				    font-size: 23px
+				}
+
+				.fixed-header .main-header ul.social li a:hover {
+				    text-decoration: none;
+				    opacity: .9
+				}
+
+		.fixed-header .main-header form {
+		    margin: 8px 0 0 15px;
+		}
+
+			.fixed-header .main-header form i {
+			    position: absolute;
+			    right: 1px;
+			    top: 10px;
+			    font-size: 16px;
+			    color: #a3a3a3;
+			}
+
+			.fixed-header .main-header form input {
+			    border: 0;
+			    height: 33px;
+			    width: 145px;
+			    padding-left: 10px;
+			}
+
+				.fixed-header .main-header form input[type=submit] {
+				    display: none;
+				}
+
+		.fixed-header .main-header nav.main-menu {
+		    float: left;
+		    padding: 0;
+		    margin-top: -20px;
+		}
+
+			.fixed-header .main-header nav.main-menu > ul {
+			    padding: 0;
+			    margin: 0;
+			}
+
+				.fixed-header .main-header nav.main-menu > ul > li {
+				    display: inline-block;
+				}
+
+					.fixed-header .main-header nav.main-menu > ul > li:hover {
+					    background: #242424;
+					}
+
+					.fixed-header .main-header nav.main-menu > ul > li > a {
+					    display: block;
+					    position: relative;
+					    padding: 35px 22px 30px 12px;
+					    color: white;
+					    font: 700 14px "Dosis", Sans-serif;
+					    text-transform: uppercase;
+					}
+
+					.fixed-header .main-header nav.main-menu > ul > li > a:hover {
+					    text-decoration: none;
+					}
+
+					.fixed-header .main-header nav.main-menu > ul > li.tree-menu > a:after {
+					    position: absolute;
+					    top: 40px;
+					    right: 2px;
+					    width: 0;
+					    height: 0;
+					    content: '❯';
+					    transform: rotate(90deg);
+					    -moz-transform: rotate(90deg);
+					    -ms-transform: rotate(90deg);
+					    -webkit-transform: rotate(90deg);
+					}
+
+	.fixed-header .popular-label {
+	    height: 28px;
+	    padding-top: 5px;
+	    font: 700 14px "Dosis", Sans-serif;
+	    color: white;
+	    padding-left: 20px;
+	    background: #d41f1f;
+	}
+
+	.fixed-header .popular {
+	    position: relative;
+	    height: 28px;
+	    background: #000;
+	    line-height: 28px;
+	}
+		.fixed-header .popular ul {
+		    margin-left: 20px
+		}
+
+			.fixed-header .popular ul li {
+			    display: inline-block;
+			    margin-right: 30px
+			}
+
+				.fixed-header .popular ul li a {
+				    color: white;
+				    display: block;
+				    font: 700 14px "Dosis", Sans-serif;
+				    text-transform: uppercase
+				}
+
+	.fixed-header .child-menu > ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+		.fixed-header .child-menu > ul > li > nav {
+		    display: none;
+		    width: 100%;
+		    position: absolute;
+		    left: 0;
+		    top: 190px;
+		    background: #242424;
+		    border-bottom: 2px solid #ed1c24;
+		    height: 220px;
+		    font-family: "Asap";
+		}
+
+			.fixed-header .child-menu > ul > li > nav a {
+				color: #fff;
+			    font-family: "Asap";
+			}
+
+				.fixed-header .child-menu > ul > li > nav a:hover {
+				    text-decoration: none;
+				}
+
+				.fixed-header .child-menu > ul > li > nav > div > ul {
+				    height: 220px;
+				    background: #474747;
+				    padding: 10px 0;
+				    border-bottom: 2px solid #ed1c24;
+				    list-style-type: none;
+				}
+
+				.fixed-header .child-menu > ul > li > nav > div > div {
+					padding: 1.5% 4%;
+				}
+
+				.fixed-header .child-menu > ul > li > nav ul > li {
+				    position: relative;
+				    text-align: right;
+				    padding: 5px 0
+				}
+
+					.fixed-header .child-menu > ul > li > nav ul > li.is_active {
+					    background: #242424;
+					}
+
+						.fixed-header .child-menu > ul > li > nav ul > li.is_active a:after {
+						    display: block;
+						}
+
+					.fixed-header .child-menu > ul > li > nav ul > li > a {
+					    color: #fff;
+					    font-size: 15px;
+					    padding: 0 22px;
+					    font-weight: normal;
+					}
+
+						.fixed-header .child-menu > ul > li > nav ul > li > a:after {
+							color: #959595;
+						    display: none;
+						    position: absolute;
+						    top: 7px;
+						    right: 15px;
+						    width: 0;
+						    height: 0;
+						    color: white;
+						    content: '❯';
+						}
+
+		.fixed-header .child-menu > ul > li > nav.category-list, 
+		.fixed-header .child-menu > ul > li > nav.category-list > div > ul {
+			height: 200px;
+		}
+
+			.fixed-header .child-menu > ul > li > nav.category-list > div > div {
+			    padding: 0;
+			}
+
+				.fixed-header .child-menu > ul > li > nav.category-list > div > div > ul > li {
+				    display: inline-block;
+				    margin: 5px 0 15px 0;
+				    width: 200px;
+				}
+
+					.fixed-header .child-menu > ul > li > nav.category-list > div > div > ul > li > a {
+					    color: white;
+					    text-decoration: none;
+					    font-size: 15px;
+					}
+				
+.mosaic {
+	padding: 0;
+}
+
+.feature {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 292px;
+}
+	.feature .thumbnail {
+		border: 0;
+		padding: 0;
+		margin: 0;		
+	}
+
+	.feature .thumbnail figure {
+		height: 178px;
+		width: 282px;
+	}
+
+	.feature h4 {
+		font-size: 19px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    margin-bottom: 0;
+	}
+
+	.feature h4 a {
+	    color: #000;
+	}
+
+	.feature .caption {
+		height: 120px;
+		overflow: hidden;
+	}
+
+	.feature .related a {
+		color: #ed1c24;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
